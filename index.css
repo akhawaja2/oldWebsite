@@ -1,0 +1,26 @@
+html, body {
+	margin:0;	
+	background: black;
+	background-image: url("https://i.imgur.com/8pDvEtZ.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+h1 {
+	color: white;
+}
+#particles-js {
+	position:fixed;
+	top: 0;
+	left:0;
+	bottom:0;
+	right:0;
+	z-index: 0;
+	background-position: 50% 50%;
+	
+
+
+}
+#intro {
+	position:relative;
+}
