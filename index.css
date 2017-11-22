@@ -9,7 +9,7 @@ html, body {
 h1 {
 	color: white;
 }
-#particles-js {
+#particles-js canvas {
 	position:fixed;
 	top: 0;
 	left:0;
