@@ -24,9 +24,18 @@ html, body {
 	margin-top: -100px;
 	text-align: center;
 	font-family: "Georgia", serif;
-	color: black;
-	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-	padding: 25px;
-	background-color: white;
+	color: white;
+	/*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
+	padding: 10px;
 	overflow: auto;
+	
+}
+#links a {
+	text-decoration: none;
+}
+#links {
+	position: fixed;
+	top: 55%;
+	left: 40%;
+
 }
