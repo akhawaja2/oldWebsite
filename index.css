@@ -40,11 +40,23 @@ html, body {
 
 }
 
-#intro {
-	animation: fadein 10s;
-	-moz-animation: fadein 10s;
-	-webkit-animation: fadein 10s;
-	-o-animation: fadein 10s;
+#intro h1{
+	/*-webkit-animation-delay: .3s;
+	-moz-animation-delay: .3s;
+	animation-delay: .3s;*/
+	animation: fadein 2s;
+	-moz-animation: fadein 2s;
+	-webkit-animation: fadein 2s;
+	-o-animation: fadein 2s;
+}
+#intro h3, #links {
+	/*-webkit-animation-delay: 4s;
+	-moz-animation-delay: 4s;
+	animation-delay: 4s;*/
+	animation: fadein 5s;
+	-moz-animation: fadein 5s;
+	-webkit-animation: fadein 5s;
+	-o-animation: fadein 5s;
 }
 
 @keyframes fadein {
